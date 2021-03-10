@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Baitap01</string>
+    <string-array name="country">
+        <item>Viet Nam</item>
+        <item>China</item>
+        <item>Malaysia</item>
+        <item>Japan</item>
+        <item>Korean</item>
+        <item>Singapore</item>
+    </string-array>
+    <string-array name="university">
+        <item>PTIT</item>
+        <item>HUST</item>
+        <item>HAU</item>
+        <item>FTU</item>
+        <item>NEU</item>
+        <item>NUCE</item>
+    </string-array>
+
+</resources>
