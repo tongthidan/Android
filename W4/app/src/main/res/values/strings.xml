@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">W4</string>
+    <string-array name="country">
+        <item>Thai Binh</item>
+        <item>Thanh Hoa</item>
+        <item>Thai Nguyen</item>
+
+        <item>Hung Yen</item>
+        <item>Ha Noi</item>
+        <item>Ha Nam</item>
+        <item>Hai Duong</item>
+        <item>Hau Giang</item>
+    </string-array>
+</resources>

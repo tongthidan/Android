@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Nhom4_w4</string>
+    <string-array name="technology">
+        <item>Java</item>
+        <item>C++</item>
+        <item>NodeJS</item>
+        <item>Java</item>
+
+
+    </string-array>
+</resources>

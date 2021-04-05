@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:layout_margin="15dp"
+    android:padding="15dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidu"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:paddingBottom="15dp"
+/>
+    <AutoCompleteTextView
+        android:hint="Lua chon 1"
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="26dp"
+        android:completionThreshold="1"
+
+
+
+        />
+    <MultiAutoCompleteTextView
+        android:hint="Lua chon nhieu"
+        android:id="@+id/many"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        />
+</LinearLayout>
