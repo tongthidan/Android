@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/mMessage"
+    android:icon="@drawable/ic_message"
+    android:title="Message"
+
+    />
+    <item
+        android:id="@+id/mContact"
+        android:icon="@drawable/ic_contact"
+        android:title="Contact"
+
+        />
+    <item
+        android:id="@+id/mHistory"
+        android:icon="@drawable/ic_history"
+        android:title="History"
+
+        />
+    <item
+        android:id="@+id/mAdd"
+        android:icon="@drawable/ic_add"
+        android:title="Add"
+
+        />
+</menu>

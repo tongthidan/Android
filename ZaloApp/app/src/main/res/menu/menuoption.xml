@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/overflow_menu"
+        android:title=""
+        android:icon="@drawable/ic_add"
+        app:showAsAction="always">
+        <menu>
+            <item
+                app:showAsAction="ifRoom"
+                android:id="@+id/group"
+                android:icon="@drawable/ic_baseline_group_24"
+                android:iconTint="@color/black"
+                android:title="Create Group" />
+            <item
+                app:showAsAction="ifRoom"
+                android:id="@+id/friend"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:iconTint="@color/black"
+                android:title="Add Friend" />
+
+            <item
+                app:showAsAction="ifRoom"
+                android:id="@+id/history"
+                android:icon="@drawable/ic_baseline_computer_24"
+                android:iconTint="@color/black"
+                android:title="Login History" />
+            <item
+                app:showAsAction="ifRoom"
+                android:id="@+id/calendar"
+                android:icon="@drawable/ic_baseline_calendar_today_24"
+                android:iconTint="@color/black"
+                android:title="Zalo Calendar" />
+            <item
+                app:showAsAction="ifRoom"
+                android:id="@+id/file"
+                android:icon="@drawable/ic_baseline_insert_drive_file_24"
+                android:iconTint="@color/black"
+                android:title="File Transfer" />
+            <item
+                app:showAsAction="ifRoom"
+                android:id="@+id/video_call"
+                android:icon="@drawable/ic_baseline_video_call_24"
+                android:iconTint="@color/black"
+                android:title="Create Video Call" />
+        </menu>
+    </item>
+</menu>

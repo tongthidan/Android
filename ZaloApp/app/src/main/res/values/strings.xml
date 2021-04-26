@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ZaloApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="mMessage">Hello Message fragment</string>
+    <string name="mContact">Hello Contact fragment</string>
+    <string name="mHistory">Hello History fragment</string>
+    <string name="mAdd">Hello Add fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="image">
+        <item>Anh1</item>
+        <item>Anh2</item>
+        <item>Anh3</item>
+    </string-array>
+</resources>

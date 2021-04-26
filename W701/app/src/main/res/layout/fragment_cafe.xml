@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentCafe"
+    android:background="#803737">
+
+
+    <com.google.android.material.tabs.TabLayout
+
+        android:id="@+id/tabCafe"
+        app:tabTextColor="#FFF"
+        app:tabSelectedTextColor="#FFF888"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+<!--    <TextView-->
+
+<!--        android:textSize="40dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/fCafe" />-->
+
+</LinearLayout>
